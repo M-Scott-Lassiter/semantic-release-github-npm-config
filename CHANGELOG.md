@@ -1,3 +1,10 @@
+### [1.0.2](https://github.com/M-Scott-Lassiter/semantic-release-github-npm-config/compare/v1.0.1...v1.0.2) (2022-05-20)
+
+
+### :lady_beetle: Bug Fixes
+
+* add a private false property to package.json ([262c78f](https://github.com/M-Scott-Lassiter/semantic-release-github-npm-config/commit/262c78fa90e8b5e65bfd425bc0f27ff1e5651a0e))
+
 ### [1.0.1](https://github.com/M-Scott-Lassiter/semantic-release-github-npm-config/compare/v1.0.0...v1.0.1) (2022-05-20)
 
 
