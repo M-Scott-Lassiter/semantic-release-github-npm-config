@@ -63,11 +63,13 @@ $ npm install --save-dev semantic-release @M-Scott-Lassiter/semantic-release-git
 
 ## Usage
 
-The shareable config can be configured in the [**semantic-release** configuration file](https://github.com/semantic-release/semantic-release/blob/master/docs/usage/configuration.md#configuration):
+The shareable config can be configured in the [**semantic-release** configuration file](https://github.com/semantic-release/semantic-release/blob/master/docs/usage/configuration.md#configuration). Add this to the `package.json`:
 
 ```json
 {
-    "extends": "@M-Scott-Lassiter/semantic-release-github-npm-config"
+    "release": {
+        "extends": "@M-Scott-Lassiter/semantic-release-github-npm-config"
+    }
 }
 ```
 
