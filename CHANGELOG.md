@@ -1,3 +1,15 @@
+### [1.0.4](https://github.com/M-Scott-Lassiter/semantic-release-github-npm-config/compare/v1.0.3...v1.0.4) (2022-05-20)
+
+
+### :building_construction: Build Changes
+
+* add semantic-release as a peerDependency ([55e9dd4](https://github.com/M-Scott-Lassiter/semantic-release-github-npm-config/commit/55e9dd4052114a17ec905f2a8cdda1282ac73f0b))
+
+
+### :gift: Feature Changes
+
+* **api:** add detailed installation and usage instructions ([b3ba6cc](https://github.com/M-Scott-Lassiter/semantic-release-github-npm-config/commit/b3ba6cce0658f86dcb1137aabb540deca70ff34d))
+
 ### [1.0.3](https://github.com/M-Scott-Lassiter/semantic-release-github-npm-config/compare/v1.0.2...v1.0.3) (2022-05-20)
 
 

@@ -1,6 +1,6 @@
 {
     "name": "@m-scott-lassiter/semantic-release-github-npm-config",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "A common, shareable configuration for publishing on Github and NPM",
     "keywords": [
         "semantic-release",
