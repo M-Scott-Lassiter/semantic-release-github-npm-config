@@ -64,6 +64,9 @@
         "prettier": "^2.6.2",
         "semantic-release": "^19.0.2"
     },
+    "peerDependencies": {
+      "semantic-release": "^19.0.2"
+    },
     "release": {
         "extends": "./index.js"
     },
