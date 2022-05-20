@@ -1,17 +1,17 @@
 <div align="center">
 
-# @M-Scott-Lassiter/semantic-release-github-npm-config
+# @m-scott-lassiter/semantic-release-github-npm-config
 
-[![NPM Version](https://img.shields.io/npm/v/@M-Scott-Lassiter/semantic-release-github-npm-config)](https://www.npmjs.com/package/@M-Scott-Lassiter/semantic-release-github-npm-config)
-[![NPM Package Size](https://img.shields.io/bundlephobia/min/@M-Scott-Lassiter/semantic-release-github-npm-config)](https://www.npmjs.com/package/@M-Scott-Lassiter/semantic-release-github-npm-config)
-[![License](https://img.shields.io/github/license/M-Scott-Lassiter/@M-Scott-Lassiter/semantic-release-github-npm-config?color=blue)](https://github.com/M-Scott-Lassiter/@M-Scott-Lassiter/semantic-release-github-npm-config/blob/main/LICENSE)
+[![NPM Version](https://img.shields.io/npm/v/@m-scott-lassiter/semantic-release-github-npm-config)](https://www.npmjs.com/package/@m-scott-lassiter/semantic-release-github-npm-config)
+[![NPM Package Size](https://img.shields.io/bundlephobia/min/@m-scott-lassiter/semantic-release-github-npm-config)](https://www.npmjs.com/package/@m-scott-lassiter/semantic-release-github-npm-config)
+[![License](https://img.shields.io/github/license/m-scott-lassiter/semantic-release-github-npm-config?color=blue)](https://github.com/M-Scott-Lassiter/semantic-release-github-npm-config/blob/main/LICENSE)
 
 ---
 
-[![Build](https://github.com/M-Scott-Lassiter/semantic-release-github-npm-config/actions/workflows/publish.yml/badge.svg)](https://github.com/M-Scott-Lassiter/semantic-release-github-npm-config/actions/workflows/publish.yml)
-[![Dependency status](https://img.shields.io/librariesio/release/npm/@M-Scott-Lassiter/semantic-release-github-npm-config)](https://www.npmjs.com/package/@M-Scott-Lassiter/semantic-release-github-npm-config?activeTab=dependencies)
-![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/npm/@M-Scott-Lassiter/semantic-release-github-npm-config)
-[![Open Issues](https://img.shields.io/github/issues/m-scott-lassiter/semantic-release-github-npm-config/bug)](https://github.com/M-Scott-Lassiter/semantic-release-github-npm-config/labels/bug)
+[![Build](https://github.com/m-scott-lassiter/semantic-release-github-npm-config/actions/workflows/publish.yml/badge.svg)](https://github.com/m-scott-lassiter/semantic-release-github-npm-config/actions/workflows/publish.yml)
+[![Dependency status](https://img.shields.io/librariesio/release/npm/@m-scott-lassiter/semantic-release-github-npm-config)](https://www.npmjs.com/package/@m-scott-lassiter/semantic-release-github-npm-config?activeTab=dependencies)
+![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/npm/@m-scott-lassiter/semantic-release-github-npm-config)
+[![Open Issues](https://img.shields.io/github/issues/m-scott-lassiter/semantic-release-github-npm-config/bug)](https://github.com/m-scott-lassiter/semantic-release-github-npm-config/labels/bug)
 
 [![Maintained](https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg)](#envelope-contact)
 
@@ -58,7 +58,7 @@ This [shareable configuration](https://github.com/hexonet/semantic-release-githu
 ## Install
 
 ```bash
-$ npm install --save-dev semantic-release @M-Scott-Lassiter/semantic-release-github-npm-config
+$ npm install --save-dev semantic-release @m-scott-lassiter/semantic-release-github-npm-config
 ```
 
 ## Usage
@@ -68,12 +68,12 @@ The shareable config can be configured in the [**semantic-release** configuratio
 ```json
 {
     "release": {
-        "extends": "@M-Scott-Lassiter/semantic-release-github-npm-config"
+        "extends": "@m-scott-lassiter/semantic-release-github-npm-config"
     }
 }
 ```
 
-## Configuration
+# Configuration
 
 Ensure that your CI configuration has the following **_secret_** environment variables set:
 
@@ -81,3 +81,20 @@ Ensure that your CI configuration has the following **_secret_** environment var
 -   [`NPM env vars`](https://github.com/semantic-release/npm#environment-variables)
 
 See each [plugin](#plugins) documentation for required installation and configuration steps.
+
+# License and Development
+
+This configuration and all other files in this repository are distributed as free and open-source software under the [MIT License](/../../blob/main/LICENSE), © 2022.
+
+Contributions and [bug reports](https://github.com/M-Scott-Lassiter/semantic-release-github-npm-config/issues) welcome.
+
+Leave a :star2: if you find this project useful!
+
+# Contact
+
+Maintained by M. Scott Lassiter.
+
+[![GitHub Badge Profile](https://img.shields.io/badge/GitHub-100000?style=plastic&logo=github&logoColor=white)](https://github.com/M-Scott-Lassiter)
+[![Twitter Badge Profile](https://img.shields.io/badge/Twitter-1DA1F2?style=plastic&logo=twitter&logoColor=white)](https://twitter.com/MScottLassiter)
+[![LinkedIn Badge Profile](https://img.shields.io/badge/LinkedIn-0077B5?style=plastic&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mscottlassiter)
+[![Stackoverflow Badge Profile](https://img.shields.io/badge/stackoverflow-orange.svg?longCache=true&style=plastic&logo=stackoverflow&logoColor=white)](https://stackoverflow.com/users/6186333/sandpiper)
