@@ -11,6 +11,7 @@
         "changelog",
         "npm"
     ],
+    "private": false,
     "homepage": "https://github.com/M-Scott-Lassiter/semantic-release-github-npm-config#readme",
     "bugs": "https://github.com/M-Scott-Lassiter/semantic-release-github-npm-config/issues",
     "license": "MIT",
