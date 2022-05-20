@@ -31,7 +31,7 @@
         "build": "npm run lint && npm run tableofcontents && npm run format && echo \"Build process complete.\" && exit 0",
         "cz": "cz",
         "format": "npx prettier . --write",
-        "tableofcontents": "markdown-toc -i ./README.md",
+        "tableofcontents": "markdown-toc -i ./README.md && markdown-toc -i ./CONTRIBUTING.md && markdown-toc -i ./INSTALLATION.md",
         "lint": "eslint . --ext .js --fix",
         "prepare": "husky install"
     },
@@ -65,7 +65,7 @@
         "semantic-release": "^19.0.2"
     },
     "peerDependencies": {
-      "semantic-release": "^19.0.2"
+        "semantic-release": "^19.0.2"
     },
     "release": {
         "extends": "./index.js"
