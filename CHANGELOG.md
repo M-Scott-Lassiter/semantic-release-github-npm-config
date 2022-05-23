@@ -1,3 +1,14 @@
+## [2.0.0](https://github.com/M-Scott-Lassiter/semantic-release-github-npm-config/compare/v1.0.4...v2.0.0) (2022-05-23)
+
+
+### ⚠ BREAKING CHANGES
+
+* 'API' scope no longer triggers patch change, but new 'API' type does
+
+### :gift: Feature Changes
+
+* upgrade the `api` rule from scope to full type to trigger patch changes ([287a8c3](https://github.com/M-Scott-Lassiter/semantic-release-github-npm-config/commit/287a8c3157dc6c62836f3fcefb1e62c9a51ad33f))
+
 ### [1.0.4](https://github.com/M-Scott-Lassiter/semantic-release-github-npm-config/compare/v1.0.3...v1.0.4) (2022-05-20)
 
 
