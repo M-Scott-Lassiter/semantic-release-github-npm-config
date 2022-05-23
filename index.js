@@ -5,7 +5,7 @@ module.exports = {
             '@semantic-release/commit-analyzer',
             {
                 preset: 'angular',
-                releaseRules: [{ scope: 'api', release: 'patch' }]
+                releaseRules: [{ type: 'api', release: 'patch' }]
             }
         ],
         [
@@ -14,6 +14,11 @@ module.exports = {
                 preset: 'conventionalcommits',
                 presetConfig: {
                     types: [
+                        {
+                            type: 'api',
+                            section: ':compass: API Documentation Changes',
+                            hidden: false
+                        },
                         {
                             type: 'build',
                             section: ':building_construction: Build Changes',

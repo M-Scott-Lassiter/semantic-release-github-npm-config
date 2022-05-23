@@ -1,6 +1,10 @@
 module.exports = {
     types: [
         {
+            value: 'api',
+            name: 'api:      Non-functional changes to code API documentation that help other developers understand how to use a tool or feature (i.e. intellisense)'
+        },
+        {
             value: 'build',
             name: 'build:    Changes that affect the build system configuration, package scripts, or dev dependencies (i.e. adds/remove/modify/update)'
         },
@@ -27,11 +31,10 @@ module.exports = {
     ],
 
     scopes: [
-        { name: 'api' },
-        { name: 'contributing' },
-        { name: 'license' },
-        { name: 'readme' },
-        { name: 'security' }
+        // { name: 'contributing' },
+        // { name: 'license' },
+        // { name: 'readme' },
+        // { name: 'security' }
     ],
 
     allowTicketNumber: false,
@@ -40,16 +43,17 @@ module.exports = {
     ticketNumberRegExp: '\\d{1,5}',
 
     // it needs to match the value for field type. Eg.: 'fix'
-    /*
     scopeOverrides: {
-      fix: [
-        {name: 'merge'},
-        {name: 'style'},
-        {name: 'e2eTest'},
-        {name: 'unitTest'}
-      ]
+        docs: [
+            { name: 'contributing' },
+            { name: 'code of conduct' },
+            { name: 'license' },
+            { name: 'readme' },
+            { name: 'security' }
+        ],
+        ci: [{ name: 'publish' }, { name: 'hooks' }]
     },
-    */
+
     // override the messages, defaults are as follows
     messages: {
         type: "Select the type of change that you're committing:",

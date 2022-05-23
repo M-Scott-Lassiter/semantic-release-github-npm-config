@@ -112,6 +112,7 @@ The header contains succinct description of the change:
 
 Required. Must be one of the following:
 
+-   `api`: Non-functional changes to code API documentation that help other developers understand how to use a tool or feature (i.e. intellisense)
 -   `build`: Changes that affect the build system configuration, package scripts, or dev dependencies (i.e. adds/remove/modify/update)
 -   `ci`: Changes to CI configuration files and scripts (e.g. release configs, YAML scripts)
 -   `docs`: Documentation only changes
@@ -127,7 +128,6 @@ Required. Must be one of the following:
 Optional. If used, must be one of the following supported scopes:
 
 -   `<custom>`: Used for extending these settings with your own project's requirements
--   `api`: Any documentation that helps developers or end users understand how to better employ a tool or feature
 -   `contributing`: Contributions to this guidance or the [Code of Conduct](CODE_OF_CONDUCT.md)
 -   `license`: Changes to terms or copyright status within the [license](LICENSE).
     -   _Any change in license type MUST include a BREAKING CHANGE_
@@ -153,15 +153,19 @@ Pushes to the main branch causes `semantic-release` to check all commits since t
 -   Patch
     -   `fix`
     -   `perf`
-    -   `(api)`
+    -   `api`
 -   Version
     -   `feat`
 -   Major
     -   `BREAKING CHANGE`
 
-Extensions from the [semantic-release default](https://github.com/semantic-release/semantic-release#commit-message-format):
+**Extensions from the [semantic-release default](https://github.com/semantic-release/semantic-release#commit-message-format):**
 
--   `api` scope (regardless of commit type) triggers a patch. This keeps API documentation for the end user as a first-class citizen without patching for any and all changes to the README or other supporting docs.
+-   `api` triggers a patch. Only use this type for non-functional changes to code API documentation that help other developers understand how to use the code.
+    -   Appropriate use: changing JSDoc comments to make Intellisense more useful for other developers
+    -   Inappropriate use: Adding a new function (use `feat`), removing an optional parameter (use `BREAKING CHANGE`)
+
+This keeps API documentation for the end user as a first-class citizen without patching for any and all changes to the README or other supporting docs.
 
 # Example Commit Messages
 
@@ -201,10 +205,14 @@ No Change:
 docs(readme): update readme to document new changes to `foo`
 ```
 
+```
+refactor: change `foo` implementation to faster xyz algorithm
+```
+
 Patch Version Change:
 
 ```
-docs(api): update the JSDoc comments in the `foo` function for parameter clarity
+api: update the JSDoc comments in the `foo` function for parameter clarity
 ```
 
 # License and Development
