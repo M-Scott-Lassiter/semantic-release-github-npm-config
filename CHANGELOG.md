@@ -1,3 +1,16 @@
+## [2.0.1](https://github.com/M-Scott-Lassiter/semantic-release-github-npm-config/compare/v2.0.0...v2.0.1) (2023-11-15)
+
+
+### :building_construction: Build Changes
+
+* **custom:** update dev dependencies to latest versions ([fc0b231](https://github.com/M-Scott-Lassiter/semantic-release-github-npm-config/commit/fc0b231a019422fa2ee2310c455d8cf4c5867af5))
+* **custom:** update Node version used for publishing script due to requirements in semantic-release ([230c58c](https://github.com/M-Scott-Lassiter/semantic-release-github-npm-config/commit/230c58cfb3061e751f3321ffd2528ae245d850d2))
+
+
+### :lady_beetle: Bug Fixes
+
+* **custom:** update license date ([48054e9](https://github.com/M-Scott-Lassiter/semantic-release-github-npm-config/commit/48054e94c0e770712e7b4860c3d29cb390e72ae3))
+
 ## [2.0.0](https://github.com/M-Scott-Lassiter/semantic-release-github-npm-config/compare/v1.0.4...v2.0.0) (2022-05-23)
 
 
